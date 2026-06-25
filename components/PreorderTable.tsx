@@ -61,6 +61,8 @@ export default function PreorderTable({ preorders }: PreorderTableProps) {
   const handleDelete = useCallback(
     async (id: string, e: React.MouseEvent) => {
       e.stopPropagation();
+      if (!confirm("Delete this preorder?")) return;
+
       try {
         const res = await fetch(`/api/preorders/${id}`, {
           method: "DELETE",

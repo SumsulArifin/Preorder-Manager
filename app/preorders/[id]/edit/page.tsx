@@ -55,13 +55,6 @@ export default async function EditPreorderPage({ params }: EditPageProps) {
             >
               Cancel
             </Link>
-            <button
-              type="submit"
-              form="preorder-form"
-              className="px-4 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors"
-            >
-              Save changes
-            </button>
           </div>
         </div>
 

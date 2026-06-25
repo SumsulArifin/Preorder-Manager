@@ -2,6 +2,8 @@
 
 A modern web application for managing product preorders with filtering, sorting, pagination, and CRUD operations.
 
+**Repository**: [https://github.com/SumsulArifin/Preorder-Manager](https://github.com/SumsulArifin/Preorder-Manager)
+
 ## Overview
 
 Preorder-Manager is a full-stack Next.js application that helps businesses manage their preorder systems. It allows users to create, view, edit, and delete preorders with features like status filtering, sorting, and pagination to handle large datasets efficiently.
@@ -66,7 +68,7 @@ Preorder-Manager is a full-stack Next.js application that helps businesses manag
 
 6. Seed initial data (optional):
    ```bash
-   npx prisma/seed.ts
+   npx tsx prisma/seed.ts
    ```
 
 7. Start the development server:
